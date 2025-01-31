@@ -7,8 +7,31 @@
   <title>Tathya's Awesome Website</title>
 </head>
 
+<style>
+  :root {
+    --background: #f0f0f0;
+    --text-color: #333;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: #333;
+      --text-color: #f0f0f0;
+    }
+  }
+
+  body {
+    background: var(--background);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+</style>
+
 <body>
-  Hi
+  <p>im tathya</p>
+  <p>i write code and stuff i guess</p>
 </body>
 
 </html>
